@@ -1,0 +1,85 @@
+body {
+  font-family: sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form.form-input {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+form.form-input input,
+form.form-input button {
+  padding: 10px;
+  font-size: 14px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+input[type="number"],
+input[type="text"] {
+  width: 100px;
+  padding: 6px;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button[name="edit"] {
+  background-color: #2196F3;
+  color: white;
+}
+
+button[name="hapus"] {
+  background-color: #f44336;
+  color: white;
+}
+
+button[name="tambah"] {
+  background-color: #4CAF50;
+  color: white;
+}
+
+button[type="reset"] {
+  background-color: #777;
+  color: white;
+}
+
+.alert {
+  padding: 12px;
+  background-color: #d4edda;
+  color: #155724;
+  border-left: 5px solid #28a745;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 5px;
+}

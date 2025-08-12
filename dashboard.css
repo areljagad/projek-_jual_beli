@@ -1,0 +1,88 @@
+/* Reset dasar */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f4f8;
+  color: #333;
+}
+
+/* Header */
+h1 {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  color: #2c3e50;
+  margin-top: 40px;
+  text-align: center;
+}
+
+/* Container utama */
+body {
+  padding: 30px;
+}
+
+/* Statistik ringkas */
+p {
+  font-size: 18px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* Tabel */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+table th {
+  background-color: #3498db;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Chart container */
+canvas {
+  display: block;
+  margin: 30px auto;
+  max-width: 700px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  table, canvas {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  body {
+    padding: 15px;
+  }
+
+  h1, h2 {
+    font-size: 20px;
+  }
+}
